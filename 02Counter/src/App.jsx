@@ -31,7 +31,7 @@ function App() {
       <br />
       <button
       onClick={removeValue}
-      >Remove Value</button>
+      >Remove Value </button>
     </>
   )
 }
