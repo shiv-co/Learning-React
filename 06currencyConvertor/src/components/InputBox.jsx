@@ -39,7 +39,7 @@ function InputBox({
                     bg-gray-100 cursor-pointer 
                     outline-none"
                     value={selectCurrency}
-                    onChange={(e) => onAmountChange && onAmountChange(e.target.value)}
+                    onChange={(e) => onCurrencyChange && onCurrencyChange(e.target.value)}
                     disabled={currencyDisable}
                     
                 >
